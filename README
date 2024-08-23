@@ -1,0 +1,19 @@
+##################################
+##################################
+
+
+## Data
+"frog_survey.csv" contains the 30s labeled frog ASCR survey data.
+"frog_validation.csv" contains a 10s subset of frog ASCR data as validation set.
+"gibbon_capthist.json" contains one sample of simulated gibbon capture history. 
+
+## ASCR model script
+"ascr_canonical.cpp" contains the Template Model Builder (TMB) script for the canonical model.
+"ascr_mixture.cpp" contains the TMB script for the ASCR mixture model with step detection function.
+"auto_mixture.cpp" contains the TMB script for the ASCR mixture model with a logistic detection function.
+"ascr_cuda.py" contains the ASCR mixture model with a logistic detection function written in matrix operation.
+
+
+## Example running script
+"run_sample.R" contains the code for running ASCR models using frog data and gibbon simulation sample.
+"run_sample.py" contains the code for running the ASCR mixture model with GPU acceleration.
